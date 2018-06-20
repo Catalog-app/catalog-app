@@ -45,7 +45,7 @@ class building_floorViewController: UIViewController, UITableViewDelegate, UITab
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "building_floor_cell", for: indexPath);
-        cell.textLabel?.text = self.floorModel[indexPath.row].type
+        cell.textLabel?.text = self.floorModel[indexPath.row].type! + " (" + self.floorModel[indexPath.row].number! + ")"
         return cell
     }
     

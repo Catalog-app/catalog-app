@@ -44,7 +44,7 @@ class catalog_roomViewController: UIViewController, UITableViewDataSource, UITab
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "catalog_room_cell", for: indexPath);
-        cell.textLabel?.text = roomModel[indexPath.row].type
+        cell.textLabel?.text = self.roomModel[indexPath.row].type! + " (" + self.roomModel[indexPath.row].number! + ")"
         return cell
     }
     
