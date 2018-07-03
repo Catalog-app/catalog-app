@@ -1,9 +1,7 @@
 //
 //  Global.swift
 //  MCI Worksheet
-//
-//  Created by Shen on 11/05/2017.
-//  Copyright © 2017 Mobile Applicability. All rights reserved.
+//  Copyright © 2018 Junjie Shi. All rights reserved.
 //
 
 import Foundation

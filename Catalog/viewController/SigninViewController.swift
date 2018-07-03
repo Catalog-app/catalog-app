@@ -3,7 +3,7 @@
 //  Catalog
 //
 //  Created by STAR on 17.06.18.
-//  Copyright © 2018 senZpay. All rights reserved.
+//  Copyright © 2018 Junjie Shi. All rights reserved.
 //
 
 import UIKit
